@@ -29,6 +29,7 @@
     [self.collectionView registerClass:[FlowImageCell class] forCellWithReuseIdentifier:@"cell"];
     [self.view addSubview:self.collectionView];
     self.collectionView.frame = self.view.bounds;
+    [UIApplication sharedApplication];
 }
 
 #pragma mark - CollectionView Delegate
